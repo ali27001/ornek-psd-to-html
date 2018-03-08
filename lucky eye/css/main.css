@@ -1,0 +1,395 @@
+
+
+
+.MainContainer{
+    width: 980px;
+    margin: 0 auto;
+    padding: 120px 0px;
+
+}
+
+/*headermenu start*/
+.header{
+    background: #000;
+}
+.headerLeft img{
+    margin-top: 20px;
+}
+.headermenu{
+    display: flex;
+    height: 85px;
+    width: 980px;
+    margin: 0 auto;
+}
+.headerLeft{
+    width: 490px;
+}
+.headerRight{
+    width: 490px;
+    display: block;
+    float: right;
+}
+.headerRight ul{
+    display: flex;
+    float: right;
+}
+.h_ust ul{
+    display: flex;
+    float: right;
+    font-family: myriad pro;
+    font-size: 11px;
+    padding: 15px 0px;
+    color: #858585;
+}
+.h_alt ul{
+    display: flex;
+    float: right;
+    font-family: myriad pro;
+    font-size: 15px;
+    margin-top: -14px;
+
+}
+
+.headerRight ul li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.h_alt a{
+    color: #fff;
+}
+.header-link{
+    color: #afafaf;
+    text-decoration: none;
+}
+/*headermenu end*/
+
+/*slider star */
+
+/*slider end*/
+
+/*right-icons start*/
+.right-icons{
+    width: 55px;
+    height: 323px;
+    position: fixed;
+    top: 190px;
+    right: 0;
+    z-index: 999;
+}
+/*right-icons end*/
+/* home start*/
+.home-main{
+    display: flex;;
+}
+.home-left{
+    width: 490px;
+
+
+}
+.home-right{
+    width: 490px;
+}
+.home-right img{
+    width: 100%;
+}
+/* home end*/
+
+/* button-mavi start*/
+.button-mavi{
+    font-size: 15px;
+    padding: 10px;
+    background: #00b6ff;
+    color: #ffff;
+    text-decoration: none;
+    font-family: Fira Sans;
+}
+.button-mavi svg{
+    margin-left:40px;
+
+}
+/*button-mavi end */
+
+
+/* button-gri start*/
+.button-gri{
+    padding: 10px;
+    font-size: 15px;
+    background:#cccccc;
+    color: #000;
+    text-decoration: none;
+    font-family: Fira Sans;
+    margin-left: 20px;
+}
+.button-gri svg{
+    margin-left:40px;
+
+}
+/*button-gri end */
+
+/* home-left start */
+.home-left h2{
+    font-size: 34px;
+    font-family: Open Sans;
+}
+.home-left p{
+    font-family: Open Sans Lite;
+    line-height: 1.8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding-right: 54px;
+}
+/* home-left end */
+
+/* cozumlerimiz start*/
+.cozumlerimiz{
+    background:#ebf4f1;
+}
+.cozum-main{
+    display: flex;;
+}
+.cozum-right{
+    width: 490px;
+
+}
+.cozum-left{
+    width: 490px;
+    padding-top: 50px;
+}
+.cozum-right h2{
+    font-size: 34px;
+    font-family: Open Sans;
+    text-align: end;
+}
+.cozum-right p{
+    font-family: Open Sans Lite;
+    line-height: 1.8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.button-grup{
+    text-align: end;
+}
+/* cozumlerimiz end*/
+
+/* referanslar start*/
+.referanslarimiz{
+    background:#ebf4f1;
+    text-align: center;
+}
+.referans-logolar{
+     display: flex;
+     margin-top: 35px;
+}
+.referans-logo{
+    width: 33%;
+    text-align: center;
+}
+.referanslarimiz h2{
+    font-size: 34px;
+    font-family: Open Sans;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.referans-main button-mavi{
+    text-align: center;
+}
+/* referanslar end*/
+
+/*blog start*/
+.blog{
+    width: 980px;
+    margin: 0px auto;
+    padding: 60px 0px;
+}
+.button-siyah{
+    font-size: 15px;
+    padding: 10px;
+    background: #000;
+    color: #ffff;
+    text-decoration: none;
+    font-family: Fira Sans;
+    margin-left: 10px;
+}
+.button-siyah svg{
+    margin-left:40px;
+
+}
+
+.card-all{
+    display: flex;
+}
+.blog-card{
+    width: 33%;
+    padding: 62px 62px 0px 0px;
+    height: 365px;
+}
+.cart-ust{
+    background: #fff;
+}
+.card-alt{
+    padding: 5px;
+    height: 105px;
+    background: #e7e7e7;
+}
+.card-alt h2{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Georgia;
+    padding: 0px 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+
+}
+.card-orta{
+    background: #e7e7e7;
+    margin-top: 5px;
+}
+.card-orta img{
+    width: 100%;
+
+}
+#blog-h2{
+    font-size: 34px;
+    font-family: Open Sans;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*blog end*/
+
+/*bilgi start*/
+.bilgi{
+    background-image: url("../img/kapak.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bilgi-main{
+    width: 980px;
+    margin: 0 auto;
+    padding: 40px 0px;
+    text-align: center;
+}
+.bilgi-main p{
+    font-family: "Myriad Pro";
+    font-size: 29px;
+    color: #fff;
+    padding: 25px 0px;
+}
+.bilgi-main span{
+    color: #ff5500;
+}
+.bilgi-butonlar{
+    margin-top: 30px;
+}
+/*bilgi end*/
+
+/*partner start*/
+.partnerler{
+    background:#ebf4f1;
+}
+.partner-main{
+    padding: 35px;
+    width: 980px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.partner-main h2{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #69635f;
+
+}
+.partner-main p{
+    border-right: 1px #69635f solid
+}
+/*partner end*/
+
+/*alt-menu start*/
+.alt-menu{
+    background:#282828;
+}
+.alt-main{
+    width: 980px;
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+
+
+.alt-menu-cizgi{
+    border-left: 1px solid #424242;
+    padding-left: 35px;
+}
+.alt-main-tek h2{
+    font-size: 16px;
+    font-family: Open Sans;
+    color:#00b6ff;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.alt-main-tek ul{
+    font-family: Open Sans;
+    color:#c0c0c0;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.alt-main-tek-right{
+    padding-left: 20px;
+}
+/*alt-menu end*/
+
+/*footer start*/
+.footer{
+    background: #1f1f1f;
+}
+.footer hr{
+    width: 980px;
+    margin: 0 auto;
+}
+.footer-main-ust{
+    width: 980px;
+    margin: 0 auto;
+    padding: 30px 0px;
+    display: flex;
+}
+.footer-main-ust h2{
+    font-size: 16px;
+    font-family: Open Sans;
+    color:#ff9c00;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.ofislerimiz h2{
+    font-size: 13px;
+    color: #ffffff;
+}
+.footer-right ul li{
+    float: left;
+    float: left;
+    padding: 20px 10px;
+    color: white;
+}
+.ofislerimiz{
+    display: flex;
+}
+.ofislerimiz ul li{
+    color: #c0c0c0;
+    font-family: "Open Sans";
+    font-size: 13px;
+    line-height: 1.5;
+}
+.footer-adres{
+    padding-right: 25px;
+}
+
+#copy{
+    text-align: center;
+    padding: 20px;
+    color:#c0c0c0;
+}
+/*footer end*/
